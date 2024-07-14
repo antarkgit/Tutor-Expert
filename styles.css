@@ -1,0 +1,100 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefef0;
+    background: repeating-linear-gradient( -45deg, #fefef0 0px, #fefef0 5px, #ffffff 6px, #fefef0 11px, #ffffff 12px);
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: #fefef0;
+    background: repeating-linear-gradient( -45deg, #fefef0 0px, #fefef0 5px, #ffffff 6px, #fefef0 11px, #ffffff 12px);
+    color: #090808;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navigation Styles */
+
+.navbar {
+   margin: 10px;
+            padding: 5px 10px;
+            font-size: 18px;
+            border-radius: 25px;
+}
+.navbar li a:hover {
+    background-color:#82c1f8;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Content Styles */
+
+.content {
+    padding: 20px 0;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #757575;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.phone {
+    line-height: 0.25;
+  }
+.card-header{
+    color: #5f73e3;
+}
+
+/* Responsive Styles */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .container {
+        width: 90%; /* Adjust as needed */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        width: 80%; /* Adjust as needed */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container {
+        width: 70%; /* Adjust as needed */
+    }
+}
